@@ -1,0 +1,14 @@
+    /** general */
+        .menu li { margin-bottom: 0 !important; } /* overwrite JFGrid settings */    
+        
+        .main-level, .main-level ul { margin: 0; padding: 0; list-style: none; }
+    
+        .main-level:before,
+        .main-level:after {	content: ""; display: table; }
+        .main-level:after {	clear: both; }
+    	.main-level { zoom:1; }
+    
+        .menu a { cursor: hand; cursor: pointer; }
+    
+        .menu ul.sub-level { z-index: 99999 !important; }  
+            
