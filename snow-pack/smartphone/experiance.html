@@ -1,0 +1,252 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Snow for Iphone, Android & Smartphone Mobile Website Template | Experiance :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="Snow Iphone web template, Andriod web template, Smartphone web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="smartphone/js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+      <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body>
+	<div class="wrap">
+	   <div class="header">
+ 			<div class="search" style="display: none;">
+		        <form action="search.html">
+		           	<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" class="text">
+		            <input type="submit" value="">
+		       </form>
+		       <div class="close"><img src="smartphone/images/close.png"></div>
+		    </div>
+   			<div class="logo"><a href="index.html"><img src="smartphone/images/logo.png" alt=""></a></div>
+     		<div class="right"><button> </button></div>
+            <ul class="icon1 sub-icon1 profile_img">
+					 <li><a class="active-icon c1" href="#"> </a>
+						<ul class="sub-icon1 list">
+						  <div class="product_control_buttons">
+						  	<a href="#"><img src="smartphone/images/edit.png" alt=""/></a>
+						  		<a href="#"><img src="smartphone/images/close_edit.png" alt=""/></a>
+						  </div>
+						   <div class="clear"></div>
+						  <li class="list_img"><img src="smartphone/images/1.jpg" alt=""/></li>
+						  <li class="list_desc"><h4><a href="#">velit esse molestie</a></h4><span class="actual">1 x
+                          $12.00</span></li>
+						  <div class="login_buttons">
+							 <div class="check_button"><a href="checkout.html">Check out</a></div>
+							 <div class="login_button"><a href="login.html">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		      <div class="clear"></div>
+		   <script type="text/javascript" src="smartphone/js/script.js"></script>
+		    <script type="text/javascript">
+		       $('.search').hide();
+		        $('button').click(function (){
+		            $('.search').show();
+		            $('.text').focus();
+		        }
+		        );
+		        $('.close').click(function(){
+		            $('.search').hide();
+		        });
+		    </script>
+	  </div>
+      <nav class="nav">
+		<ul>
+		  <li><a href="shop.html">Shop</a></li>
+		  <li><a href="team.html">Team</a></li>
+		  <li><a href="experiance.html">Experiance</a></li>
+		  <li><a href="shop.html">Company</a></li> 
+		  <li><a href="contact.html">Contact</a></li>				
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	 </nav>
+     <div class="main">
+      <div class="shop_top">
+		 <div class="row ex_box">
+				<h3 class="m_2">Our Experiance</h3>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <img src="smartphone/images/e1.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+			     </div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				    <img src="smartphone/images/e2.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				   <img src="smartphone/images/e3.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</div>
+				</div>
+		    </div>
+		    <div class="row ex_box">
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				   <img src="smartphone/images/e4.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				   <img src="smartphone/images/e5.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				   <img src="smartphone/images/e6.jpg" alt=""/>  
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</div>
+				</div>
+		    </div>
+		  </div>
+	  </div>
+	  <div class="footer">
+			<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Products</h4>
+							<li><a href="#">Mens</a></li>
+							<li><a href="#">Womens</a></li>
+							<li><a href="#">Youth</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+							<li><a href="#">Careers and internships</a></li>
+							<li><a href="#">Sponserships</a></li>
+							<li><a href="#">team</a></li>
+							<li><a href="#">Catalog Request/Download</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Customer Support</h4>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Shipping and Order Tracking</a></li>
+							<li><a href="#">Easy Returns</a></li>
+							<li><a href="#">Warranty</a></li>
+							<li><a href="#">Replacement Binding Parts</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Newsletter</h4>
+							<div class="footer_search">
+				    		   <form>
+				    			<input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
+				    			<input type="submit" value="Go">
+				    		   </form>
+					        </div>
+							<ul class="social">	
+							  <li class="facebook"><a href="#"><span> </span></a></li>
+							  <li class="twitter"><a href="#"><span> </span></a></li>
+							  <li class="instagram"><a href="#"><span> </span></a></li>	
+							  <li class="pinterest"><a href="#"><span> </span></a></li>	
+							  <li class="youtube"><a href="#"><span> </span></a></li>										  				
+						    </ul>
+		   				</ul>
+					</div>
+				</div>
+				<div class="row footer_bottom">
+				    <div class="copy">
+			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+		            </div>
+					  <dl id="sample" class="dropdown">
+				        <dt><a href="#"><span>Change Region</span></a></dt>
+				        <dd>
+				            <ul>
+				                <li><a href="#">Australia<img class="flag" src="smartphone/images/as.png" alt="" /><span class="value">AS</span></a></li>
+				                <li><a href="#">Sri Lanka<img class="flag" src="smartphone/images/srl.png" alt="" /><span class="value">SL</span></a></li>
+				                <li><a href="#">Newziland<img class="flag" src="smartphone/images/nz.png" alt="" /><span class="value">NZ</span></a></li>
+				                <li><a href="#">Pakistan<img class="flag" src="smartphone/images/pk.png" alt="" /><span class="value">Pk</span></a></li>
+				                <li><a href="#">United Kingdom<img class="flag" src="smartphone/images/uk.png" alt="" /><span class="value">UK</span></a></li>
+				                <li><a href="#">United States<img class="flag" src="smartphone/images/us.png" alt="" /><span class="value">US</span></a></li>
+				            </ul>
+				         </dd>
+	   				  </dl>
+   				</div>
+		   </div>
+		</div>
+</body>	
+</html>
